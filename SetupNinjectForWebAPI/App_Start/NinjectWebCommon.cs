@@ -18,9 +18,6 @@ namespace SetupNinjectForWebAPI.App_Start
 
     public static class NinjectWebCommon 
     {
-        //Optional:Just For ServiceLocator Sample 
-        public static IKernel GlobalKernel { get; private set; }
-
         private static readonly Bootstrapper bootstrapper = new Bootstrapper();
 
         /// <summary>
@@ -55,10 +52,6 @@ namespace SetupNinjectForWebAPI.App_Start
                 kernel.Bind<IHttpModule>().To<HttpApplicationInitializationHttpModule>();
 
                 RegisterServices(kernel);
-
-                //Optional:Just For ServiceLocator Sample 
-                GlobalKernel = kernel;
-                
 
                 return kernel;
             }

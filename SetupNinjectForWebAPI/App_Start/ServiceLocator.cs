@@ -11,7 +11,7 @@ namespace SetupNinjectForWebAPI
         {
             try
             {
-                Kernel = NinjectWebCommon.GlobalKernel;
+                Kernel = new StandardKernel(new Module());
             }
             catch 
             {
