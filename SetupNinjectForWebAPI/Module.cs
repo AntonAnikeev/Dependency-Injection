@@ -9,8 +9,6 @@ namespace SetupNinjectForWebAPI
         public override void Load()
         {
             Bind<IDependency>().To<FirstDependency>().InTransientScope();
-            Bind<IDependency>().To<FirstDependency>().InSingletonScope();
-            Bind<IDependency>().To<FirstDependency>().InThreadScope();
             Bind<ISecondDependency>().To<SecondDependency>();
         }
     }

@@ -1,17 +1,17 @@
-﻿using System;
-using Ninject;
+﻿using Ninject;
+using SetupNinjectForWebAPI.App_Start;
 
 namespace SetupNinjectForWebAPI
 {
-    public static class IoCConfigWithServiceLocator
+    public static class ServiceLocator 
     {
         public static IKernel Kernel { get; private set; }
 
-        static IoCConfigWithServiceLocator()
+        static ServiceLocator()
         {
             try
             {
-                Kernel = new StandardKernel(new Module());
+                Kernel = NinjectWebCommon.GlobalKernel;
             }
             catch 
             {
