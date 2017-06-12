@@ -25,3 +25,7 @@ F:\Projects\Study\SetupNinjectForWebAPI\SetupNinjectForWebAPI\obj\Debug\SetupNin
 F:\Projects\Study\SetupNinjectForWebAPI\SetupNinjectForWebAPI\obj\Debug\SetupNinjectForWebAPI.pdb
 F:\Projects\Study\SetupNinjectForWebAPI\SetupNinjectForWebAPI\bin\Ninject.Web.WebApi.WebHost.dll
 F:\Projects\Study\SetupNinjectForWebAPI\SetupNinjectForWebAPI\bin\Ninject.Web.WebApi.WebHost.xml
+F:\Projects\Study\SetupNinjectForWebAPI\SetupNinjectForWebAPI\bin\CommonServiceLocator.NinjectAdapter.Unofficial.dll
+F:\Projects\Study\SetupNinjectForWebAPI\SetupNinjectForWebAPI\bin\Microsoft.Practices.ServiceLocation.dll
+F:\Projects\Study\SetupNinjectForWebAPI\SetupNinjectForWebAPI\bin\Microsoft.Practices.ServiceLocation.pdb
+F:\Projects\Study\SetupNinjectForWebAPI\SetupNinjectForWebAPI\bin\Microsoft.Practices.ServiceLocation.xml

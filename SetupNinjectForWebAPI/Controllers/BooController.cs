@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Web.Http;
+using CommonServiceLocator.NinjectAdapter.Unofficial;
 using SetupNinjectForWebAPI.Dependencies;
 
 namespace SetupNinjectForWebAPI.Controllers
@@ -27,7 +28,6 @@ namespace SetupNinjectForWebAPI.Controllers
         public List<string> GetListFromSecondDependency()
         {
             return _secondDependency.GetList();
-        } 
-
+        }
     }
 }
